@@ -22,14 +22,14 @@
 .nav li.active a{
 	color: #6CBEFF;
 }
-a.login{
+a.login-btn{
 	font-size: 16px;
 	color: #6CBEFF;
 	border-radius: 5px;
 	border: 1px solid #6CBEFF;
 	padding:6px 22px;
 }
-a.register{
+a.register-btn{
 	font-size: 16px;
 	color: #fff;
 	padding:6px 22px;

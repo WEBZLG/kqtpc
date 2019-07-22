@@ -618,7 +618,7 @@ a .news-desc p {
 	height: 40px;
 	border: none;
 	outline: none;
-	padding:0 12px;
+	padding: 0 12px;
 	font-size: 14px;
 	background-color: #F2F2F2;
 }
@@ -667,4 +667,209 @@ a .news-desc p {
 	line-height: 298px;
 	text-align: center;
 	background-color: #F2F2F2;
+}
+
+.news-details {
+	margin: 100px 0;
+}
+
+.news-details h4 {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.news-details p {
+	font-size: 14px;
+	line-height: 28px;
+}
+
+.news-details .news-time {
+	color: #BBBBBB;
+	text-align: center;
+}
+
+/* 登录 */
+.login {
+	position: relative;
+	height: 600px;
+	background: url(../img/banner3.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.login-bg {
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	border-radius: 20px;
+	width: 400px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 10px 2px rgba(72, 82, 110, 0.2);
+}
+
+.login-box {
+	padding: 58px;
+}
+
+.login-box h3 {
+	font-size: 27px;
+	margin-bottom: 70px;
+	font-family: FZLTKHK--GBK1-0;
+}
+
+.login-box label {
+	font-size: 16px;
+	font-family: MicrosoftYaHei;
+}
+
+.login-box input {
+	width: 238px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid rgba(220, 220, 220, 1);
+	border-radius: 5px;
+	margin-bottom: 34px;
+	padding-left: 12px;
+	margin-left: 8px;
+}
+
+.login-box input::-webkit-input-placeholder {
+	font-size: 14px;
+	color: #B9B9B9;
+	font-family: MicrosoftYaHei;
+}
+
+.login-box input:-moz-placeholder {
+	font-size: 14px;
+	color: #B9B9B9;
+	font-family: MicrosoftYaHei;
+}
+
+.login-box input:-ms-input-placeholder {
+	font-size: 14px;
+	color: #B9B9B9;
+	font-family: MicrosoftYaHei;
+}
+
+.login-box button {
+	background: rgba(108, 190, 255, 1);
+	border-radius: 5px;
+	color: #FFFFFF;
+	width: 100%;
+	border: none;
+	outline: none;
+	margin: 28px 0;
+	padding: 8px 0;
+}
+
+.login-footer .footer {
+	color: #333333;
+	background-color: #FFFFFF;
+}
+
+.login-footer .contact {
+	border-bottom: 1px solid #333333;
+}
+
+.login-footer .contact li a {
+	color: #333333;
+}
+
+.register-bg{
+	top: 3%;
+}
+
+.register-box h3{
+	margin-bottom:40px;
+}
+
+.register-box input{
+	height: 28px;
+	line-height: 28px;
+	font-size: 16px;
+}
+
+.register-box button{
+	font-size: 16px;
+	padding: 6px 0;
+}
+
+.register-box input[type="radio"]{
+	height: 18px;
+	width: 18px;
+	vertical-align: bottom;
+}
+#code{
+	width: 120px;
+}
+#get-btn{
+    width: 86px;
+    padding: 0;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+.thanks{
+	font-size: 16px;
+    margin-top: 60px;
+    font-weight: bold;
+}
+.retrieve input{
+	width: 222px;
+}
+.help{
+    font-size: 16px;
+    font-weight: bold;
+}
+.retrieve #code,
+.retrieve #get-btn{
+	margin-bottom: 0px;
+}
+.dropdown-menu{
+	min-width: inherit !important;
+}
+.dropdown-menu a{
+	margin: 8px 0;
+}
+
+/* .续费 */
+
+
+.renew{
+	position: relative;
+	border-top: 2px solid #E7E7E7;
+	background-color: #F8F8F8;
+}
+.left-nav{
+    position: absolute;
+    top: 20px;
+    left: 8%;
+    bottom: 120px;
+    margin: 20px 0;
+    width: 200px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 70px 0;
+    border: 1px solid #E7E7E7;
+}
+
+
+.left-nav ul li{
+	margin: 24px 0;
+}
+
+.nav-icon{
+	margin-right: 20px;
+}
+.left-nav li a{
+	font-weight: bold;
+	font-size: 16px;
+	color: #333333;
+}
+
+.left-nav a:hover{
+	color: #6CBEFF;
+}
+.vip-message{
+	text-align: center;
+	
 }
