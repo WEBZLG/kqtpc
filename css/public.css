@@ -774,102 +774,202 @@ a .news-desc p {
 	color: #333333;
 }
 
-.register-bg{
+.register-bg {
 	top: 3%;
 }
 
-.register-box h3{
-	margin-bottom:40px;
+.register-box h3 {
+	margin-bottom: 40px;
 }
 
-.register-box input{
+.register-box input {
 	height: 28px;
 	line-height: 28px;
 	font-size: 16px;
 }
 
-.register-box button{
+.register-box button {
 	font-size: 16px;
 	padding: 6px 0;
 }
 
-.register-box input[type="radio"]{
+.register-box input[type="radio"] {
 	height: 18px;
 	width: 18px;
 	vertical-align: bottom;
 }
-#code{
+
+#code {
 	width: 120px;
 }
-#get-btn{
-    width: 86px;
-    padding: 0;
-    background-color: #fff;
-    border: none;
-    outline: none;
+
+#get-btn {
+	width: 86px;
+	padding: 0;
+	background-color: #fff;
+	border: none;
+	outline: none;
 }
-.thanks{
+
+.thanks {
 	font-size: 16px;
-    margin-top: 60px;
-    font-weight: bold;
+	margin-top: 60px;
+	font-weight: bold;
 }
-.retrieve input{
+
+.retrieve input {
 	width: 222px;
 }
-.help{
-    font-size: 16px;
-    font-weight: bold;
+
+.help {
+	font-size: 16px;
+	font-weight: bold;
 }
+
 .retrieve #code,
-.retrieve #get-btn{
+.retrieve #get-btn {
 	margin-bottom: 0px;
 }
-.dropdown-menu{
+
+.dropdown-menu {
 	min-width: inherit !important;
 }
-.dropdown-menu a{
+
+.dropdown-menu a {
 	margin: 8px 0;
 }
 
 /* .续费 */
 
 
-.renew{
+.renew {
 	position: relative;
 	border-top: 2px solid #E7E7E7;
 	background-color: #F8F8F8;
 }
-.left-nav{
-    position: absolute;
-    top: 20px;
-    left: 8%;
-    bottom: 120px;
-    margin: 20px 0;
-    width: 200px;
-    text-align: center;
-    background-color: #ffffff;
-    padding: 70px 0;
-    border: 1px solid #E7E7E7;
+
+.left-nav {
+	position: absolute;
+	top: 20px;
+	left: 8%;
+	bottom: 120px;
+	margin: 20px 0;
+	width: 200px;
+	text-align: center;
+	background-color: #ffffff;
+	padding: 70px 0;
+	border: 1px solid #E7E7E7;
 }
 
 
-.left-nav ul li{
+.left-nav ul li {
 	margin: 24px 0;
 }
 
-.nav-icon{
+.nav-icon {
 	margin-right: 20px;
 }
-.left-nav li a{
+
+.left-nav li a {
 	font-weight: bold;
 	font-size: 16px;
 	color: #333333;
 }
-
-.left-nav a:hover{
+.left-nav a.active,
+.left-nav a:hover {
 	color: #6CBEFF;
 }
-.vip-message{
+
+.vip-message {
 	text-align: center;
-	
+	padding-bottom: 132px;
+}
+
+.buy-title {
+	margin: 88px 0 72px;
+	font-family: FZLTKHK--GBK1-0;
+}
+
+.vip-type {
+	margin: 15px 0 60px;
+}
+
+.g-line {
+	width: 50%;
+	margin: 0 auto 52px;
+	border: 1px solid #E5E5E5;
+}
+
+.vip-content {
+	width: 50%;
+	margin: 0 auto 96px;
+	display: flex;
+	font-size: 30px;
+	color: #B9B9B9;
+}
+
+.vip-content div {
+	flex: 1;
+}
+
+.vip-content em {
+	font-size: 16px;
+	color: #333333;
+	font-weight: bold;
+	margin-right: 20px;
+}
+
+a.buy-btn {
+	font-size: 16px;
+	color: #FFFFFF !important;
+	border-radius: 5px;
+	padding: 8px 90px;
+	background-color: #6CBEFF;
+}
+
+/* 购买详情 */
+.choose-type {
+	width: 50%;
+	margin: 100px 0 120px 33%;
+	text-align: left;
+}
+
+.choose-type label {
+	width: 64px;
+	font-size: 16px;
+	margin-right: 20px;
+}
+
+.choose-type .pay-way {
+	display: inline-block;
+	vertical-align: top;
+}
+.add-message input ,
+.choose-type select {
+	font-size: 16px;
+	height: 28px;
+	width: 220px;
+	padding-left: 8px;
+	border: 1px solid rgba(220, 220, 220, 1);
+	border-radius: 5px;
+}
+
+.item-type {
+	margin-bottom: 44px;
+}
+
+.item-type em {
+	color: #DC0303;
+}
+
+.item-type input[type="radio"] {
+	height: 18px;
+	width: 18px;
+	margin-bottom: 20px;
+	vertical-align: top;
+	margin-right: 8px;
+}
+/* 个人资料 */
+.add-message {
+	margin: 100px 0 120px 29%;
 }
